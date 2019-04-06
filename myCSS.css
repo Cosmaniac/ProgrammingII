@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* This is a comment! Text here will be ignored by the browser. */
+body {
+	font: 100%/1.4 "Condor", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+     background-color: #FFFFFF;
+     margin: 0;
+     padding: 0;
+     color: #121212;
+}
+a:link {
+     color: #121212;
+	text-decoration: none;
+}
+a:visited {
+     color: #121212;
+}
+a:hover, a:active, a:focus { 
+     text-decoration: underline;
+}
+
+.homePage {
+	background: #0A449A;
+}
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+.header {
+	font-weight: 100px;
+	background: #0A449A;
+	text-align: center;
+	margin: 0px;
+	float: left;
+	width: 100%;
+	height: 150px;
+}
+.nav {
+	/*border-radius: 25px 12px 12px 12px;*/
+	background: #931619;
+	color: #9F9494;
+	margin: 0px;
+	padding: 5;
+	float: left;
+	width: 100%;
+	height: 60px;
+	text-align: center;
+}
+.content {
+	/*border-radius: 25px 12px 12px 12px;*/
+	color: #9F9494;
+	background: #121212;
+	margin: 0px;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.contentContact{
+    font: 100%/1.4 "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #9F9494;
+	background: #121212;
+	margin: 0px;
+	float: left;
+	width: 100%;
+	text-align: center;
+	
+}
+.footer {
+	/*border-radius: 25px 12px 12px 12px;*/
+	background: #121212;
+	color: #9F9494;
+	margin: 0px;
+	float: left;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+}
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background: none;
+}
